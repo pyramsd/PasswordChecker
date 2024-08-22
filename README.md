@@ -5,7 +5,7 @@ Programa que testea que tan segura es tu contraseña con la ayuda de la librerí
 Ejecución
 ```bash
 ./passwordChecker.sh pasword123
-
+o
 ./passwordChecker.sh pasword123 -wordlist ./usr/share/wordlists/rockyou.txt.gz
 ```
 
