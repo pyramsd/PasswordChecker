@@ -17,4 +17,4 @@ Parameters:
     password        Contraseña a evaluar
     -wordlist       Lista de contraseñas en un archivo
 ```
-> No es necesario descomprimir el archivo, esto útil se vas testear en archivos pesados
+> No es necesario descomprimir el archivo, esto es útil se vas testear con archivos pesados
