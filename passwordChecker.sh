@@ -69,7 +69,6 @@ if [ -n "$wordlist" ]; then
     else
         echo -e "\e[32m\n[+] La contraseña -> $password <- no ha sido filtrada\e[0m"
     fi
-
-    echo "La extensión del archivo de wordlist es: $extension"
+    
     exit 1
 fi
