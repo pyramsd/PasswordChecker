@@ -38,7 +38,7 @@ case $score in
     (1) color=$(tput setaf 1) ;;
     (2) color=$(tput setaf 3) ;;
     (3) color=$(tput setaf 2) ;;
-    (4) color=$(tput setaf 2) ;; # 10
+    (4) color=$(tput setaf 2) ;;
 esac
 
 reset=$(tput sgr0)
