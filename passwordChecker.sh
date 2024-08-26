@@ -32,7 +32,6 @@ display_online_no_throttling_10_per_second=$(echo "$password" | zxcvbn | jq '.cr
 display_offline_slow_hashing_1e4_per_second=$(echo "$password" | zxcvbn | jq '.crack_times_display.offline_slow_hashing_1e4_per_second')
 display_offline_fast_hashing_1e10_per_second=$(echo "$password" | zxcvbn | jq '.crack_times_display.offline_fast_hashing_1e10_per_second')
 
-# Establecer el color dependiendo del score
 case $score in
     (0) color=$(tput setaf 1) ;;
     (1) color=$(tput setaf 1) ;;
